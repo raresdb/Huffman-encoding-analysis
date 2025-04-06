@@ -9,7 +9,7 @@ reads the next bytes from the file in order to not waste time later with that. A
 each processed chunk at 8 bytes. Other tasks are created to generate the final output and the main thread is tasked with writting the
 output in the output file.
 
-Analysys:
+Analysis:
 Using MPI, the runtime exceeded the runtime for the serial code by a ration of 2-3 to 1.
 The performances of the pthreads and openmp implementations were similar.
 
